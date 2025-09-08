@@ -8,6 +8,6 @@ Built with Java 17, Maven, Swing GUI, Apache PDFBox for PDF generation, and MySQ
 **Setup**:
 1. Run `schema.sql` to set up the DB.
 2. Update `config.properties` with your MySQL credentials.
-3. Build with `mvn clean package`, then run `Main.java`.
+3. Build with `mvn clean package`, then run `AdminPanel.java`.
 **Output**:
 Generates `MeritList_course_<id>.pdf` files with ranked admission lists.
